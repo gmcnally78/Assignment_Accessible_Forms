@@ -307,9 +307,9 @@ textarea:focus {
   box-shadow: 0 0 0 0.09em currentColor;
 }
 
-input:error, select:error, textarea:error{
+/* input:error, select:error, textarea:error{
 	background-color: #c71819;
-}
+} */
 
 
 fieldset {
