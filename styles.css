@@ -217,10 +217,16 @@ input:focus, select:focus, textarea:focus{
 	border: 2px inset #0a58ff;
 	box-shadow: 0 0 0 0.09em currentColor;
 }
-
-input:error, select:error, textarea:error{
-	background-color: #c71819;
+input:invalid, select:invalid, textarea:invalid {
+  background-color: #c71819;
 }
+input:valid, select:valid, textarea:valid {
+  background-color: #d4edda;
+}
+/* input:error, select:error, textarea:error{
+	background-color: #c71819;
+} */
+
 
 fieldset{
 	margin: 0.5em auto;
